@@ -42,7 +42,7 @@
                 class="btn btn-default btn-secondary outline-none search-input-input w-full px-2 py-1.5 text-sm leading-normal bg-white rounded"
                 @click="createNew"
                 >
-                Create New {{ singularLabel }}
+                Créer {{ singularLabel }}
                 </button>
             </div>
 
