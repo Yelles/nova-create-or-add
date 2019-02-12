@@ -2,7 +2,7 @@
     <div class="nested-field">
         <!-- HEADING -->
         <div class="p-4 text-90 border-b border-40 flex justify-between items-center bg-30">
-            <h1 class="font-normal text-xl capitalize">{{__('Create New')}} {{ field.singularLabel }}</h1>
+            <h1 class="font-normal text-xl capitalize">{{__('Créer')}} {{ field.singularLabel }}</h1>
             <div class="flex justify-between items-center">
                 <button type="button" @click="hideForm">
                     X
