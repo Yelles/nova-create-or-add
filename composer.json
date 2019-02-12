@@ -1,5 +1,5 @@
 {
-    "name": "shivanshrajpoot/nova-create-or-add",
+    "name": "yelles/nova-create-or-add",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Shivanshrajpoot\\NovaCreateOrAdd\\": "src/"
+            "Yelles\\NovaCreateOrAdd\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Shivanshrajpoot\\NovaCreateOrAdd\\FieldServiceProvider"
+                "Yelles\\NovaCreateOrAdd\\FieldServiceProvider"
             ]
         }
     },
