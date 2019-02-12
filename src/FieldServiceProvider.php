@@ -1,6 +1,6 @@
 <?php
 
-namespace Shivanshrajpoot\NovaCreateOrAdd;
+namespace Yelles\NovaCreateOrAdd;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
