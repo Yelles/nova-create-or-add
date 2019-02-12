@@ -1,6 +1,6 @@
 <?php
 
-namespace Shivanshrajpoot\NovaCreateOrAdd;
+namespace Yelles\NovaCreateOrAdd;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -10,7 +10,7 @@ use Laravel\Nova\Fields\ResourceRelationshipGuesser;
 use Laravel\Nova\Http\Requests\NovaRequest;
 use Laravel\Nova\Rules\Relatable;
 use Laravel\Nova\TrashedStatus;
-use Shivanshrajpoot\NovaCreateOrAdd\Traits\HasChildren;
+use Yelles\NovaCreateOrAdd\Traits\HasChildren;
 
 class NovaCreateOrAdd extends Field {
 	use FormatsRelatableDisplayValues, HasChildren;
