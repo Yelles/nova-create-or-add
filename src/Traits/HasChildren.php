@@ -1,6 +1,6 @@
 <?php
 
-namespace Shivanshrajpoot\NovaCreateOrAdd\Traits;
+namespace Yelles\NovaCreateOrAdd\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Nova\Http\Requests\NovaRequest;
